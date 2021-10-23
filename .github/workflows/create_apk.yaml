@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install build dependencies
-        run: sudo apt-get -y install autoconf automake autopoint build-essential git libfuse-dev libtool pkg-config
+        run: sudo apt-get -y install autoconf automake autopoint gettext build-essential git libfuse-dev libtool pkg-config
       - name: Build with Buildozer
         uses: ArtemSBulgakov/buildozer-action@v1.1.3
         id: buildozer
