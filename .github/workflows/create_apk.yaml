@@ -17,7 +17,7 @@ jobs:
         id: buildozer
         with:
          workdir: BCCB
-          buildozer_version: stable
+         buildozer_version: stable
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
