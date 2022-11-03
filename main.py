@@ -471,7 +471,7 @@ Manager:
             on_press:
                 root.calledwithbuttongif()
                 root.manager.screens[2].ids.giffy.anim_delay = 0.10
-                root.manager.screens[2].ids.giffy._coreimage.anim_reset(True)
+                # root.manager.screens[2].ids.giffy._coreimage.anim_reset(True)
 <Screen3>:
     name:"gif"
     Image:
@@ -495,7 +495,7 @@ Manager:
             on_press:
                 root.callbackfun()
                 root.manager.screens[2].ids.giffy.anim_delay = 0.10
-                root.manager.screens[2].ids.giffy._coreimage.anim_reset(True)
+                # root.manager.screens[2].ids.giffy._coreimage.anim_reset(True)
         Button:
             text:'Check teams again?'
             size_hint:(1,.05)
@@ -515,7 +515,7 @@ Manager:
             on_press:
                 root.callbackfun()
                 root.manager.screens[2].ids.giffy.anim_delay = 0.10
-                root.manager.screens[2].ids.giffy._coreimage.anim_reset(True)
+                # root.manager.screens[2].ids.giffy._coreimage.anim_reset(True)
         Button:
             text:'Check teams again?'
             size_hint:(1,.05)
